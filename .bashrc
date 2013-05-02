@@ -1,1 +1,0 @@
-/Users/Miyauchi/.bashrc
