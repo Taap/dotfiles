@@ -1,1 +1,1 @@
-.vimrc
+/Users/Miyauchi/.vimrc

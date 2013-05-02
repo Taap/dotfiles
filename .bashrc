@@ -1,1 +1,1 @@
-.bashrc
+/Users/Miyauchi/.bashrc

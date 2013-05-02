@@ -1,1 +1,1 @@
-.bash_profile
+/Users/Miyauchi/.bash_profile
