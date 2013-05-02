@@ -1,1 +1,1 @@
-.vim
+/Users/Miyauchi/.vim
