@@ -15,6 +15,8 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'altercation/vim-colors-solarized'
 
 filetype plugin indent on
+set helplang=ja
+
 
 "Keybind
 "Insert mode
