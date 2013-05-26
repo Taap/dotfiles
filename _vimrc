@@ -17,7 +17,6 @@ Bundle 'altercation/vim-colors-solarized'
 filetype plugin indent on
 set helplang=ja
 
-
 "Keybind
 "Insert mode
 imap <C-u> <esc>
@@ -64,6 +63,13 @@ set t_Co=256
 
 "encoding
 set encoding=utf-8
+
+
+"Copy$Paste
+set clipboard=unnamed,autoselect
+map <silent> sy :call YanktmpYank()<CR> 
+map <silent> sp :call YanktmpPaste_p()<CR> 
+map <silent> sP :call YanktmpPaste_P()<CR> 
 
 "tab
 set expandtab
