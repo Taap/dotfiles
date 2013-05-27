@@ -26,7 +26,7 @@ imap <C-l> <Right>
 imap <C-j> <Down>
 imap <C-a> <HOME>
 imap <C-e> <END>
-
+imap <silent> <C-d> <Del>
 
 "normal mode
 nmap nt :NERDTreeToggle
@@ -70,6 +70,7 @@ set clipboard=unnamed,autoselect
 map <silent> sy :call YanktmpYank()<CR> 
 map <silent> sp :call YanktmpPaste_p()<CR> 
 map <silent> sP :call YanktmpPaste_P()<CR> 
+vmap <C-c> :w !xsel -ib<CR><CR>
 
 "tab
 set expandtab
