@@ -50,6 +50,14 @@ set nobackup
 filetype plugin on
 au BufNewFile,BufRead *.php set tabstop=4 shiftwidth=4
 
+"NerdTreeAutoCommand
+autocmd vimenter * if !argc() | NERDTree | endif
+nmap <silent> <C-e>      :NERDTreeToggle<CR>
+vmap <silent> <C-e> <Esc>:NERDTreeToggle<CR>
+omap <silent> <C-e>      :NERDTreeToggle<CR>
+imap <silent> <C-e> <Esc>:NERDTreeToggle<CR>
+cmap <silent> <C-e> <C-u>:NERDTreeToggle<CR>
+
 "color
 syntax enable
 colorscheme murphy
