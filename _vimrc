@@ -25,7 +25,7 @@ imap <C-h> <Left>
 imap <C-l> <Right>
 imap <C-j> <Down>
 imap <C-a> <HOME>
-imap <C-e> <END>
+imap <C-o> <END>
 imap <silent> <C-d> <Del>
 
 "normal mode
