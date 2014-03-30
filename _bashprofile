@@ -5,3 +5,7 @@ fi
 PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
 MANPATH=/opt/local/man:$MANPATH
+
+alias fx="open -a Firefox"
+alias sf="open -a Safari"
+alias ch="open /Applications/Google\ Chrome.app
