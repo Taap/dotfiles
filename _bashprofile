@@ -6,6 +6,3 @@ PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
 MANPATH=/opt/local/man:$MANPATH
 
-open -a "/Applications/Safari.app" /
-open -a "/Applications/Firefox.app" /
-open -a "/Applications/Google Chrome.app" /
